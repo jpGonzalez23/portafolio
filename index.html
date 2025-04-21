@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- enlace al css -->
+  <link rel="stylesheet" href="./styles/index.css">
+  <!-- <link rel="stylesheet" href="./styles/index_1.css"> -->
+
+  <!-- Fuentes externas -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <title>Juan Pablo Gonzalez</title>
+</head>
+
+<body>
+  <!--  -->
+  <header class="header">
+
+    <!-- <div class="logo">Juan Pablo Gonzalez</div> -->
+
+    <!-- Botón Hamburguesa -->
+    <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+      <img src="./assets/icocnos/menu.svg" alt="menu">
+    </button>
+
+    <!-- Navegación -->
+    <nav class="nav" id="nav">
+      <ul class="navegador-lista">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Inicio de main -->
+  <main>
+    <!-- Seccion de bienvenida -->
+    <section class="hero">
+      <div class="hero-texto">
+        <h2>Bienvenido a mi wedsite</h2>
+        <!-- <p>Desarrollador</p> -->
+      </div>
+      <div class="hero-imagen">
+        <img src="./assets/User-icon-256-blue.png" alt="Imagen de Juan Pablo Gonzalez" class="imagen-hero">
+      </div>
+    </section>
+
+    <!-- Seccion de sobre mi -->
+    <section class="about" data-aos="fade-left">
+      <div class="about-texto">
+        <h2>Sobre mi</h2>
+        <p>Mi nombre es Juan Pablo Gonzalez, estoy aprendiendo a ser un Desarrollador web.
+          Estoy aprendiendo a usar HTML, CSS y JavaScript. Me gusta mucho el desarrollo web y me gustaría aprender más
+          sobre
+          este tema. Me gusta mucho el desarrollo web y me gustaría aprender más sobre este tema.
+        </p>
+      </div>
+    </section>
+
+    <!-- Seccion de mis skills -->
+    <section class="skills" data-aos="fade-right">
+      <div class="skills-texto">
+        <h2>Mis Skills</h2>
+        <p>A lo largo de mi desarrollo como programador me especializado en los siguientes idiomas</p>
+      </div>
+      <div class="skills-lista">
+        <ul class="skills-lista">
+          <li><img src="./assets/icocnos/html5.svg" alt="HTML" class="skills-icono">HTML</li>
+          <li><img src="./assets/icocnos/css_old.svg" alt="CSS" class="skills-icono">CSS</li>
+          <li><img src="./assets/icocnos/javascript.svg" alt="JavaScript" class="skills-icono">JavaScript</li>
+          <li><img src="./assets/icocnos/React_light.svg" alt="React" class="skills-icono">React</li>
+          <li><img src="./assets/icocnos/GitHub_light.svg" alt="Git" class="skills-icono">Git</li>
+          <li><img src="./assets/icocnos/Php_light.svg" alt="PHP" class="skills-icono">PHP</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Seccion de proyectos -->
+    <section class="proyectos" data-aos="fade-left">
+      <div class="proyectos-texto">
+        <h2>Proyectos</h2>
+        <p>Estos son algunos proyectos que hice: </p>
+      </div>
+      <!-- Proyecto 1 -->
+      <div class="lista-de-proyectos">
+        <div class="cookie-card">
+          <span class="title">Valorant</span>
+          <p class="description">Se modela la pagina de valorant.
+            <a href="https://github.com/jpGonzalez23/page_valorant"> Ve el codigo</a>.
+          </p>
+          <div class="actions">
+            <button class="accept">
+              <a href="https://github.com/jpGonzalez23/page_valorant" style="color: white;">Ir a ver</a>
+            </button>
+          </div>
+        </div>
+        <!-- proyecto 2 -->
+        <!-- <div class="cookie-card">
+          <span class="title">Valorant</span>
+          <p class="description">Se modela la pagina de valorant.
+            <a href="https://github.com/jpGonzalez23/page_valorant">Ve el codigo</a>.
+          </p>
+          <div class="actions">
+            <button class="accept">
+              <a href="https://github.com/jpGonzalez23/page_valorant" style="color: white;">Ir a ver</a>
+            </button>
+          </div>
+        </div> -->
+      </div>
+
+
+    </section>
+
+    <!-- Seccion de contacto -->
+    <section class="contacto" data-aos="fade-right">
+      <div class="contacto-texto">
+        <h2>Contacto</h2>
+        <p>Podés contactarme a través de mis redes sociales o enviarme un correo.</p>
+        <ul>
+          <li><a href="https://github.com/jpGonzalez23">Github</a></li>
+          <li><a href="https://www.instagram.com/juampi.gonza/?hl=es">Instagram</a></li>
+          <li><a href="https://www.linkedin.com/in/juan-pablo-gonzalez-5415ab229/">Linkedin</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- Secction de footer -->
+  <footer class="footer">
+    <div class="footer-contenido">
+      <h3>Juan Pablo Gonzalez</h3>
+      <p>Desarrollador Web Jr. — Gracias por visitar mi sitio ✨</p>
+      <ul class="footer-redes">
+        <li>
+          <img src="./assets/icocnos/GitHub_dark.svg" alt="github" width="20px" height="20px">
+          <a href="https://github.com/jpGonzalez23" target="_blank">GitHub</a>
+        </li>
+        <li>
+          <img src="./assets/icocnos/linkedin.svg" alt="linkedin" width="20px" height="20px">
+          <a href="https://www.linkedin.com/in/juan-pablo-gonzalez-5415ab229/" target="_blank">LinkedIn</a>
+        </li>
+        <li>
+          <img src="./assets/icocnos/Instagram_dark.svg" alt="instagram" width="20px" height="20px">
+          <a href="https://www.instagram.com/juampi.gonza/" target="_blank">Instagram</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-copy">
+      <p>&copy; 2025 Juan Pablo Gonzalez. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+
+  <script>
+    AOS.init();
+    // Obtener el botón y el menú de navegación
+    const toggle = document.getElementById('menu-toggle');
+    const nav = document.getElementById('nav');
+
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('active');
+    })
+  </script>
+
+</body>
+
+</html>
