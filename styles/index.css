@@ -86,6 +86,7 @@ p {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  height: 50rem;
 }
 
 .hero-texto h2 {
@@ -227,7 +228,13 @@ p {
   text-align: center;
 }
 
-.contacto-texto ul {
+.contacto-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacto-listado ul {
   list-style: none;
   display: flex;
   gap: 1.5rem;
@@ -236,13 +243,13 @@ p {
   flex-wrap: wrap;
 }
 
-.contacto-texto a {
+.contacto-listado a {
   text-decoration: none;
   color: #38bdf8;
   transition: color 0.3s ease;
 }
 
-.contacto-texto a:hover {
+.contacto-listado a:hover {
   color: #0ea5e9;
 }
 
@@ -254,6 +261,7 @@ p {
   color: #f1f5f9;
   padding: 40px 20px 20px;
   text-align: center;
+  margin-top: 2rem;
 }
 
 .footer-contenido h3 {
