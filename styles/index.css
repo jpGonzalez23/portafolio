@@ -62,7 +62,9 @@ main section {
   padding: 70px 30px;
   max-width: 1200px;
   margin: auto;
+  margin-top: 2rem;
   border-radius: 12px;
+
 }
 
 h2 {
